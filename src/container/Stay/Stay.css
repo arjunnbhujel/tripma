@@ -1,0 +1,15 @@
+.stay {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.stay_card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 2.5rem;
+  padding: 0 1.5rem;
+}

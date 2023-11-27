@@ -1,0 +1,30 @@
+.title_row {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.title {
+  flex: 1;
+}
+
+.color_text {
+  color: var(--Purple-Blue, #605dec);
+}
+
+.top {
+  margin: 0 1.5rem;
+  font-weight: 700;
+  font-size: var(--Body-Extra-Large, 24px);
+}
+
+a.all {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: var(--Grey-300, #a1b0cc);
+  font-size: var(--Body-Extra-Large, 24px);
+  font-weight: 400;
+  cursor: pointer;
+}

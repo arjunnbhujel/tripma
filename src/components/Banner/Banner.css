@@ -1,0 +1,22 @@
+.banner {
+  display: flex;
+  padding: 1rem 2rem;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--Purple-Blue, #605dec);
+}
+
+.banner-text {
+  text-align: center;
+  flex: 1;
+  color: var(--Purple-White, #f6f6fe);
+  font-size: var(--Body-Large, 18px);
+}
+
+.x-icon {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.deals_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.deals {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2.5rem;
+  padding: 0 1.5rem;
+}
+
+.card_tasova {
+  grid-row: 2;
+  grid-column: 1 / 4;
+}
