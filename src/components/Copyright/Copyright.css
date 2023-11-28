@@ -1,0 +1,15 @@
+.copyright {
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--Grey-400, #7c8db0);
+  font-size: var(--Body-Large, 18px);
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 0.5rem;
+}

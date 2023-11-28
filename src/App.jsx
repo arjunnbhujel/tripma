@@ -6,7 +6,8 @@ import FlightDeals from "./container/FlightDeals/FlightDeals"
 import Stay from "./container/Stay/Stay"
 import Button from "./components/Button/Button"
 import Testimonial from "./container/Testimonial/Testimonial"
-import Review from "./components/Review/Review"
+
+import Footer from "./container/Footer/Footer"
 
 const App = () => {
   return (
@@ -21,7 +22,7 @@ const App = () => {
       </div>
       <Testimonial />
 
-      {/* <Review /> */}
+      <Footer />
     </>
   )
 }
