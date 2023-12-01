@@ -1,13 +1,21 @@
-import React from "react"
+import React, { useState } from "react"
 import "./Navigation.css"
 import logo from "./image/logo.svg"
 import Button from "../../components/Button/Button"
 
+import menu from "./icon/menu.svg"
+import close from "./icon/close.svg"
+
 const Navigation = () => {
+  const [show, setShow] = useState(false)
+  const handleClick = () => {
+    setShow(!show)
+  }
+
   return (
     <div className="navigation">
       <img className="logo" src={logo} alt="Tripma Logo" />
-      <div className="nav-pages">
+      <div className={show ? "nav-pages" : "nav-pages idle"}>
         <li>
           <a className="nav" href="#">
             Flights
@@ -31,6 +39,9 @@ const Navigation = () => {
         <li>
           <Button buttonText={"Sing Up"} />
         </li>
+      </div>
+      <div className="menu">
+        <img src={show ? close : menu} alt="menu" onClick={handleClick} />
       </div>
     </div>
   )

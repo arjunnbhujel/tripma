@@ -44,3 +44,30 @@ a.nav::after {
 a.nav:hover::after {
   width: 100%;
 }
+
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 425px) {
+  .nav-pages {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    width: 10rem;
+    height: 12rem;
+    background: #fef7e5;
+    overflow: hidden;
+  }
+
+  .nav-pages.idle {
+    left: -110%;
+    overflow: hidden;
+  }
+  .menu {
+    display: block;
+  }
+}

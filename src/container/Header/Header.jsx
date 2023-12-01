@@ -20,7 +20,9 @@ const Header = () => {
         <BaseTextInput placeholder={"Depart - Return"} iconSource={calendar} />
         <div className="divider"></div>
         <BaseTextInput placeholder={"1 adult"} iconSource={person} />
-        <Button buttonText={"Search"} />
+        <div className="button-header">
+          <Button buttonText={"Search"} />
+        </div>
       </div>
     </div>
   )
