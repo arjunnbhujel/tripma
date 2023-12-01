@@ -3,7 +3,7 @@ import "./FlightDeals.css"
 import Card from "../../components/Card/Card"
 import TitleRow from "../../components/TitleRow/TitleRow"
 // Images Import
-import kodaiji from "./image/kodaiji_temple.png"
+import kodaiji from "./image/kodaiji_temple.jpg"
 import bund from "./image/the_bund.jpeg"
 import tasova from "./image/tasova_east_national_park.jpeg"
 import sydney from "./image/sydney_opera_house.jpeg"
