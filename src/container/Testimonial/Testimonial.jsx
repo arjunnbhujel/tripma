@@ -3,9 +3,9 @@ import "./Testimonial.css"
 
 import Review from "../../components/Review/Review"
 
-import kaori from "./Image/1.svg"
-import yifei from "./Image/2.svg"
-import anthony from "./Image/3.svg"
+import kaori from "./Image/1.png"
+import yifei from "./Image/2.png"
+import anthony from "./Image/3.png"
 
 const Testimonial = () => {
   const userDetail1 = {
