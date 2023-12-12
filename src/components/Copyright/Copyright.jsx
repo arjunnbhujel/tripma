@@ -8,7 +8,6 @@ import facebook from "./Icon/facebook.svg"
 const Copyright = () => {
   return (
     <div className="copyright_bottom">
-      <hr />
       <div className="copyright">
         <div className="icon">
           <img src={twitter} alt="twitter" />

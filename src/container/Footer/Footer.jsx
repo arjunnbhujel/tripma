@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="footer_link">
-        <img src={logo} alt="Logo" />
+        <img src={logo} alt="Logo" className="footer_logo" />
         <div className="links about_links">
           <p className="link_head">About</p>
           <a href="#">About Tripma</a>

@@ -21,3 +21,12 @@ p.testimonial_top {
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
+
+@media screen and (max-width: 425px) {
+  .review {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+    gap: 1rem;
+  }
+}
