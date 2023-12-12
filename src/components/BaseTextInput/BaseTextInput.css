@@ -41,3 +41,11 @@ input.label::placeholder {
   margin: 0;
   line-height: normal;
 }
+
+@media screen and (max-width: 425px) {
+  .base-text-input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    overflow: hidden;
+  }
+}
